@@ -34,7 +34,7 @@ header ul li{
   font-size: 18px;
 }
 section{
-  padding: 24px 62px;
+  padding: 24px 162px;
 }
 section h2{
   font-weight: 400;
@@ -61,8 +61,7 @@ margin: 50px 0;
   background-color: #e8e8e8a4;
 }
 .areas .wrapper-areas{
-display: flex;
-  padding: 50px;
+display: flex; 
 
 }
 .wrapper{
@@ -119,4 +118,39 @@ display: flex;
   text-align: justify;
   margin-top: 0;   
   margin-left: 200px;   
+}
+.container-equipe{
+  display: flex;
+}
+
+.container-equipe p{
+  font-size: 20px;
+  font-weight: 500;
+}
+.container-equipe .cargo{
+  font-size: 12px;
+  font-weight: 300;
+  display: block;
+  margin: 12px 0;
+}
+.container-equipe .descricao{
+ font-size: 16px;
+ font-weight: 400;
+}
+.wrapper-eqp{
+  padding: 30px;  
+}
+.equipe h2{
+margin-bottom: 50px;
+}
+.equipe img{
+width: 400px;
+}   
+.social{
+  margin-top: 20px;
+}
+.social img{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
