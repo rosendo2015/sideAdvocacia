@@ -41,4 +41,82 @@ section h2{
   font-size: 40px;
   text-align: center;
 }
+.bannerImg{
+  height: 600px;
+  background-image: url('./assets/bannerImage.png');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.sobre h2,
+.areas h2{
+margin: 50px 0;
+}
+.sobre div{
+  padding: 50px;
+  border-top: 1px solid #ccc;
+  color: #8f8f8f;
+}
+.areas{
+  background-color: #e8e8e8a4;
+}
+.areas .wrapper-areas{
+display: flex;
+  padding: 50px;
 
+}
+.wrapper{
+  display: flex;
+  padding: 50px;
+}
+.wrapper img{
+  margin-right: 20px;
+  width: 70px;
+  height: 70px;
+}
+.banner2{
+  position: relative;
+  height: 300px;
+}
+.bannerImg2{
+  background-repeat:no-repeat;
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background-image: url('assets/bannerImage2.jpg');
+  background-size: auto;
+  height: 300px;
+  width: 100%;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+}
+.conteudo{
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  position: absolute;
+  
+  color:#fff;
+}
+.conteudo h3{
+  font-size: 20px;
+  font-weight: 400;
+  color: #d8a641;
+  margin-top: 70px;   
+  margin-left: 200px;   
+  text-align: justify;
+}
+.conteudo h2{
+  color: #ccc;
+  font-size: 50px;
+  text-align: justify;
+  margin-top: 0;   
+  margin-left: 200px;   
+}
