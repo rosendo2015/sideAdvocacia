@@ -121,6 +121,9 @@ display: flex;
 }
 .container-equipe{
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 .container-equipe p{
@@ -138,8 +141,10 @@ display: flex;
  font-weight: 400;
 }
 .wrapper-eqp{
-  padding: 30px;  
+  padding: 30px; 
+  background: #fff; 
 }
+
 .equipe{  
   background-color: #e8e8e8a4;
 }
@@ -163,9 +168,71 @@ width: 400px;
 .form{
   display: flex;
 }
+.form .detalhes{
+  width: 100%;
+}
+.icon{
+  width: 30px;
+}
+.wrapper-icon{
+  display: flex;
+  gap: 16px;
+}
+
+.detalhes .info{
+  margin-left: 15px;
+  padding-left: 20px;
+  border-left: 1px solid #d8a641;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.detalhes .info-linha{
+  padding: 2px;
+  display: flex;
+  color: #
+}
+.detalhes .info-linha img{
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+  
+}
+.telefone{
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-left: 1px solid #d8a641;
+}
+.telefone p{
+  padding: 2px;
+  margin-left: 12px;
+}
 .form form{
   display: flex;
   flex-direction: column;
+  width: 100%;
+}
+form input, textarea, button{
+  margin-bottom: 12px;
+  padding: 12px;
+}
+form input, textarea{
+  border: none;
+  outline: 1px solid #d8a641;
+}
+form button{
+  font-size: 16px;
+  font-weight: 700; 
+  color: #8f8f8f;
+  background: #fff;
+  border: 1px solid #d8a641;
+}
+form button:hover{
+  background: #d8a641;
+  border: 1px solid #d8a641;
+
+  color: #fff
+
 }
 footer{
   display: flex;
