@@ -15,24 +15,34 @@
   </head>
   <body>
     <div id="app">
-      <header>
+      <header id="menu">
         <nav>
           <div class="logo">
-            <img src="./assets/logo.png" alt="logomarca da advocacia" />
-          </div>
+            <a href="#topo">
+              <img src="./assets/logo.png" alt="logomarca da advocacia"
+              /></a>
+            </div>
+            
           <ul>
-            <li><a href="#sobre">Sobe</a></li>
-            <li><a href="#areas">Áreas de atuação</a></li>
-            <li><a href="#equipe">Equipe</a></li>
-            <li><a href="#contato">Contato</a></li>
+            <li id="li1"><a href="#sobre">Sobre</a></li>
+            <li id="li2"><a href="#areas">Áreas de atuação</a></li>
+            <li id="li3"><a href="#equipe">Equipe</a></li>
+            <li id="li4"><a href="#contato">Contato</a></li>
           </ul>
         </nav>
-        <div class="menu">
-          <img src="./assets/hamburger.png" alt="" />
+        <div class="menu-mobile">
+          <img id="btn-mobile-open" src="./assets/hamburger.png" alt="" />
+          <img id="btn-mobile-close" class="hiden" src="./assets/close.png" alt="" />
         </div>
       </header>
       <main>
-        <section class="bannerImg"></section>
+        <div id="topo">
+        <br/>        
+        <br/>        
+        <br/>        
+        <br/>        
+        </div>
+        <section  class="bannerImg"></section>
 
         <section id="sobre" class="sobre">
           <h2>Sobre nós</h2>
@@ -110,8 +120,8 @@
             <h2>Somos especialistas em Direito Previdenciário.</h2>
           </div>
         </section>
-
-        <section id="equipe" class="equipe">
+        <div id="equipe"></div>
+        <section class="equipe">
           <h2>Equipe</h2>
           <div class="container-equipe">
             <div class="wrapper-eqp">
@@ -164,8 +174,10 @@
             </div>
           </div>
         </section>
-
-        <section id="contato" class="contato">
+        <div id="contato">
+                  
+        </div>
+        <section  class="contato">
           <h2>Fale conosco</h2>
           <div class="form">
             <div class="detalhes">
@@ -242,5 +254,6 @@
         <p></p>
       </footer>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
