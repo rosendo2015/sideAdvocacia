@@ -56,8 +56,6 @@ ul.active li{
   border-bottom: 2px solid #8c7b8c;
   cursor: pointer;
 }
-
-
 ul a{
   color: #ffffff;
   text-decoration: none;
@@ -101,7 +99,7 @@ header .menu-mobile img {
 .contato,
 footer{
   
-
+  padding: 3rem 0;
   
 }
 
@@ -113,9 +111,9 @@ footer{
   color: #8c7b8c;
 }
 .areas {
-  padding: 3rem 0;
+  
   background-color: #e8e8e8;
-  margin-bottom: 3rem;
+  
 }
 .areas .wrapper {
   padding: 2rem;
@@ -137,7 +135,7 @@ footer{
 }
 .banner2 {
   position: relative;
-  height: 30rem;
+  height: 45rem;
   
 }
 .bannerImg2 {
@@ -210,7 +208,7 @@ footer{
   margin: 20px 0;
 }
 .contato {
-  margin-top: 2rem;
+  margin-top: 8rem;
 }
 
 .form .detalhes {
@@ -317,11 +315,7 @@ footer span {
     align-items: center;
     justify-content: space-between;
   }
-  header nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+
   header ul {
     display: flex;
     align-items: center;
@@ -387,7 +381,7 @@ footer span {
   
   .contato{
 
-padding-top: 0;
+padding-top: 8rem;
   }
   .contato h2{
     margin-bottom: 5rem;
