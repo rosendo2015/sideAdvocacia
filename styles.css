@@ -40,6 +40,9 @@ header {
 header ul {
   display: none;
 }
+ul li:hover{
+  background-color: #254179;
+}
 ul.active {
   display: block;
   position: absolute;
@@ -60,7 +63,9 @@ ul a {
   color: #ffffff;
   text-decoration: none;
 }
-
+ul a:hover{
+  color: #8c7b8c;
+}
 header .logo img {
   width: 20rem;
 }
@@ -105,11 +110,16 @@ footer {
 .areas {
   background-color: #e8e8e8;
 }
+.areas .wrapper:hover{
+  background-color: #eee;
+ border: 1px solid #eee;
+}
 .areas .wrapper {
   padding: 2rem;
   display: flex;
   align-items: center;
   gap: 16px;
+  border: 1px solid #e8e8e8;
 }
 .areas .wrapper img {
   width: 7rem;
@@ -192,6 +202,10 @@ font-weight: 500;
 }
 .equipe img{
   width: 100%;
+}
+.equipe img:hover{
+  scale: 1.07;
+  opacity: 0.7;
 }
 .social{
   padding: 3rem 0;
@@ -289,6 +303,7 @@ footer span {
   #app {
     width: 100%;
   }
+  
   .menu-mobile {
     display: none;
   }
@@ -317,6 +332,9 @@ footer span {
     margin-left: 14px;
     font-size: 18px;
   }
+  ul li:hover{
+    background: none;
+  }
   header ul li a {
     color: #fff;
     text-decoration: none;
@@ -338,10 +356,6 @@ footer span {
   .container-equipe{
     display: flex;
   }
-
-
-
-
   .contato {
     padding-top: 8rem;
   }
@@ -350,5 +364,8 @@ footer span {
   }
   .form {
     display: flex;
+  }
+  .cliked a{   
+    color: #8c7b8c;
   }
 }
